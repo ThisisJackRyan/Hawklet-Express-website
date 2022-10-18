@@ -99,15 +99,11 @@ a{
 	margin-top:2%;
 	background-color:#bbbbbb;
 	border-radius:5px;
+	font-family:sans-serif;
 }
 
 p{
 	margin:4%;
-}
-.article{
-	font-family:sans-serif;
-	
-	
 }
 
 .articleRight{
@@ -115,5 +111,9 @@ p{
 }
 .articleLeft{
 	margin-left:1%;
+}
+
+.margin-Bottom{
+	margin-bottom: 3%;
 }
 
