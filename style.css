@@ -1,11 +1,12 @@
 html, body {
 	height: 100%;
 	width: 100%;
-	background-color: white;
 	margin:0;
 	
 	
 }
+
+body{background-image: url(BackGround.png);}
 
 /*div {
 	border: solid black 2px;
@@ -39,7 +40,7 @@ img{
 .x6{flex:6;}
 
 .header{
-	background-color:#003ca2;
+	/*background-color:#003ca2;*/
 	color:white;
 }
 
