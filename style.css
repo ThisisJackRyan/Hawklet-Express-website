@@ -41,21 +41,29 @@ img{
 
 .header{
 	/*background-color:#003ca2;*/
-	color:white;
+	color: #bbbbbb;
 }
 
 
 #cafeName{
 	font-family: 'Audiowide', cursive;
-	font-size: 400%;
+	font-size: 600%;
 	text-shadow: 5px 5px black;
 }
 #theme{
 	font-family: 'Audiowide', cursive;
+	font-size: 200%;
 	text-shadow: 3px 3px #23282e;
+	
 }
+
+.cafeLogo{
+	border: solid 2px black;
+	color: black;
+}
+
 #nav div a{
-	background-color:#003074;
+	/*background-color:#003074;*/
 	font-family: 'Audiowide', cursive;
 	font-size:100%;
 	border-radius:5px;
@@ -74,7 +82,7 @@ img{
 }
 
 a{
-	color:white;
+	color:black;
 }
 
 .title{
@@ -83,7 +91,10 @@ a{
 	font-size: 200%;
 	text-shadow: 3px 3px #dbaa18;
 	
-	
+	/* dark- ellow: #dbaa18
+	   light-yellow: #f3db51
+	   dark red: #6a282a
+	   */
 }
 .exampleImage{
 	border:solid #23282e 2px;
@@ -91,14 +102,15 @@ a{
 	border-radius: 5px;
 }
 .section{
-	margin-bottom:5%;
+	margin-bottom:3%;
 }
 .info {
-	border: solid #23282e 2px;
-	height:98%;
-	background-color:#bbbbbb;
-	border-radius:5px;
+	/*border: solid #23282e 2px; */
+	/*height:98%;*/
+	/*background-color:#bbbbbb;*/
+	/*border-radius:5px;*/
 	font-family:sans-serif;
+	
 }
 
 p{
