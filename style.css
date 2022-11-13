@@ -2,6 +2,7 @@ html, body {
 	height: 100%;
 	width: 100%;
 	margin:0;
+	font-family: 'Audiowide', cursive;
 	
 	
 }
@@ -13,16 +14,9 @@ body{background-image: url(BackGround.png);}
 	margin: 5px;
 	padding: 5px;
 }*/
-span {
-	padding-bottom: 0;
-	border-bottom:solid black 3px;
-}
 
 
-
-img{
-	width:100%;
-	height:100%;}
+img{width:100%;}
 
 .flex{display: flex;}
 .flex.right{justify-content: right;}
@@ -38,22 +32,12 @@ img{
 .x4{flex:4;}
 .x5{flex:5;}
 .x6{flex:6;}
+.x7{flex:7;}
+.x8{flex:8;}
 
 .header{
-	/*background-color:#003ca2;*/
-	color: #bbbbbb;
-}
-
-
-#cafeName{
-	font-family: 'Audiowide', cursive;
-	font-size: 600%;
-	text-shadow: 5px 5px black;
-}
-#theme{
-	font-family: 'Audiowide', cursive;
-	font-size: 200%;
-	text-shadow: 3px 3px #23282e;
+	background:transparent;
+	
 	
 }
 
@@ -62,15 +46,14 @@ img{
 	color: black;
 }
 
-#nav div a{
-	/*background-color:#003074;*/
-	font-family: 'Audiowide', cursive;
-	font-size:100%;
-	border-radius:5px;
-	width:15%;
-	
+
+#nav div{
+	padding-left: 4%;
 }
 
+a{
+	color: #bbbbbb;
+}
 
 
 
@@ -81,13 +64,49 @@ img{
 	margin:auto;
 }
 
-a{
-	color:black;
+#k{
+ 	background-image: url(2023.jpg);
+	 background-position: center;
+	 background-repeat: no-repeat;
+	 background-size: cover;
+	 height:100%;
 }
+
+.name{
+	color: #bbbbbb;
+}
+
+#cafeName{
+	font-size: 600%;
+	text-shadow: 5px 5px black;
+}
+
+#theme{
+	font-size: 200%;
+	text-shadow: 3px 3px #23282e;
+	
+}
+#order{
+	margin-top:2%;
+}
+#order a{
+	text-decoration: none;
+}
+
+#order a span{ 
+	border:solid #bbbbbb 2px;
+	font-size: 200%;
+	padding: 5%;
+}
+
+
+
+
+
+
 
 .title{
 	color: #f3db51;
-	font-family: 'Audiowide', cursive;
 	font-size: 200%;
 	text-shadow: 3px 3px #dbaa18;
 	
@@ -127,4 +146,5 @@ p{
 .margin-Bottom{
 	margin-bottom: 3%;
 }
+
 
