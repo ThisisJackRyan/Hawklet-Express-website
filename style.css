@@ -7,7 +7,7 @@ html, body {
 	
 }
 
-body{background-image: url(BackGround.png);}
+body{background-image: url(images/BackGround.png);}
 
 /*div {
 	border: solid black 2px;
@@ -52,7 +52,7 @@ img{width:100%;}
 }
 
 a{
-	color: #bbbbbb;
+	color: white;
 }
 
 
@@ -65,7 +65,7 @@ a{
 }
 
 #k{
- 	background-image: url(2023.jpg);
+ 	background-image: url(images/2023.jpg);
 	 background-position: center;
 	 background-repeat: no-repeat;
 	 background-size: cover;
@@ -73,7 +73,7 @@ a{
 }
 
 .name{
-	color: #bbbbbb;
+	color: white;
 }
 
 #cafeName{
@@ -94,7 +94,7 @@ a{
 }
 
 #order a span{ 
-	border:solid #bbbbbb 2px;
+	border:solid white 2px;
 	font-size: 200%;
 	padding: 5%;
 }
@@ -110,7 +110,7 @@ a{
 	font-size: 200%;
 	text-shadow: 3px 3px #dbaa18;
 	
-	/* dark- ellow: #dbaa18
+	/* dark-yellow: #dbaa18
 	   light-yellow: #f3db51
 	   dark red: #6a282a
 	   */
