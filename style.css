@@ -7,7 +7,13 @@ html, body {
 	
 }
 
-body{background-image: url(images/BackGround.png);}
+body{
+	background-image: url(images/BackGround.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height:100%;
+}
 
 /*div {
 	border: solid black 2px;
@@ -66,10 +72,10 @@ a{
 
 #k{
  	background-image: url(images/2023.jpg);
-	 background-position: center;
-	 background-repeat: no-repeat;
-	 background-size: cover;
-	 height:100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height:100%;
 }
 
 .name{
@@ -168,4 +174,36 @@ p{
 }
 #aboutTitle span{
 	border-bottom:solid black 3px;
+}
+
+
+
+
+
+@media screen and (max-width: 1000px){
+	/*Index.html */
+	.break1000{
+		display:none;
+	}
+	/*cafename1000 and theme1000 does not work*/
+	.cafename1000{
+		font-size:50%;
+	}
+	.theme1000{
+		font-size:50%;
+	}
+
+
+	/*Order.html*/
+	.container .section div{
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	.foodItem1000{
+		flex-direction: column;
+	}
+
+	
+
 }
