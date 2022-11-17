@@ -108,7 +108,7 @@ a{
 .title{
 	color: #f3db51;
 	font-size: 200%;
-	text-shadow: 3px 3px #dbaa18;
+	text-shadow: 3px 2px #dbaa18;
 	
 	/* dark-yellow: #dbaa18
 	   light-yellow: #f3db51
@@ -147,4 +147,25 @@ p{
 	margin-bottom: 3%;
 }
 
+.thanks{
+	color:white;
+	font-size:150%;
+}
 
+
+
+/*about.html*/
+
+.textBox{
+	color:#bbbbbb;
+	margin-left:15%;
+	margin-right:15%;
+	padding-top:2%;
+}
+#aboutTitle{
+	
+	padding-top: 2%;
+}
+#aboutTitle span{
+	border-bottom:solid black 3px;
+}
