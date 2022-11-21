@@ -2,7 +2,17 @@ html, body {
 	height: 100%;
 	width: 100%;
 	margin:0;
-	font-family: 'Cinzel', serif;
+	font-family: JupiterBold;
+}
+@font-face {
+	font-family: Jupiter;
+	src: url("Jupiter\ Pro.otf") format("opentype");
+}
+
+@font-face {
+	font-family: JupiterBold;
+	font-weight: bold;
+	src: url("Jupiter\ Pro\ Bold.otf") format("opentype");
 }
 body{
 	background-image: url(images/BackGround.png);
@@ -82,14 +92,14 @@ a{
 
 #cafeName{
 	font-size: 600%;
-	/*text-shadow: 5px 5px black;*/
-	-webkit-text-stroke: 1px black;
+	text-shadow: 5px 5px black;
+	-webkit-text-stroke: 1.25px #616265;
 }
 
 #theme{
 	font-size: 200%;
-	/*text-shadow: 3px 3px #23282e;*/
-	-webkit-text-stroke: .5px black;
+	text-shadow: 3px 2px black;
+	-webkit-text-stroke: .75px black;
 	
 }
 #order{
@@ -98,6 +108,7 @@ a{
 #order a{
 	text-decoration: none;
 	-webkit-text-stroke: 1px black;
+	text-shadow: 2px 2px black;
 }
 
 #order a span{ 
@@ -115,6 +126,7 @@ a{
 
 
 .title{
+	margin-top: 2%;
 	color: #f3db51;
 	font-size: 200%;
 	text-shadow: 1px 1px #dbaa18;
@@ -191,6 +203,7 @@ p{
 	/*cafename1000 and theme1000 does not work*/
 	#cafeName{
 		font-size: 200%;
+		font-family: 'Jupiter';
 	}
 	#theme{
 		font-size: 50%;
