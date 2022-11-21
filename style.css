@@ -2,9 +2,8 @@ html, body {
 	height: 100%;
 	width: 100%;
 	margin:0;
-	font-family: 'Audiowide', cursive;
+	font-family: 'Cinzel', serif;
 }
-
 body{
 	background-image: url(images/BackGround.png);
 	background-position: center;
@@ -78,16 +77,19 @@ a{
 
 .name{
 	color: white;
+	
 }
 
 #cafeName{
 	font-size: 600%;
-	text-shadow: 5px 5px black;
+	/*text-shadow: 5px 5px black;*/
+	-webkit-text-stroke: 1px black;
 }
 
 #theme{
 	font-size: 200%;
-	text-shadow: 3px 3px #23282e;
+	/*text-shadow: 3px 3px #23282e;*/
+	-webkit-text-stroke: .5px black;
 	
 }
 #order{
@@ -95,12 +97,15 @@ a{
 }
 #order a{
 	text-decoration: none;
+	-webkit-text-stroke: 1px black;
 }
 
 #order a span{ 
-	border:solid white 2px;
+	border-bottom:solid black 2px;
+	color:white;
 	font-size: 200%;
 	padding: 5%;
+	padding-bottom:0px;
 }
 
 
@@ -112,7 +117,7 @@ a{
 .title{
 	color: #f3db51;
 	font-size: 200%;
-	text-shadow: 3px 2px #dbaa18;
+	text-shadow: 1px 1px #dbaa18;
 	
 	/* dark-yellow: #dbaa18
 	   light-yellow: #f3db51
