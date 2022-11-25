@@ -6,6 +6,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+<link href="account.css" rel="stylesheet" type="text/css" />
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
@@ -19,24 +20,41 @@
         <div class="x3"></div>
         <div class = "x5 flex center middle thanks">Rockhurst High School's very own Breαkfeαst Cαfe!</div>
         <div id="nav" class="flex center middle right x4">
-            <div class="flex center"><a href="menu.html">Menu</a> </div>
+            <div class="flex center"><a href="account.html">αccount</a> </div>
             <div class="flex center"><a href="order.html">Order</a></div>
             <div class="flex center"><a href="about.html">αbout</a></div>
         </div>
     </div>
 
 	<div class="container">
-
-		<div class="flex">
-			<div>Name:</div>
-			<input type="Name">
+    <div class="flex center align">
+      Hello and Thank You for choosing the Hawklet Express!!
+    </div>
+    <div class="flex center align">
+      Please enter for first and last name so we don't mix up the orders!!
+    </div>
+		<div class="flex center">
+			<div>Nαme:</div>
+			<input id="accountName" >
 		</div>
-		<div class="flex">
+    <div class="flex center">
+      <button class = "btn" id="update" onclick=UpdateName()  >Updαte</button>
+    </div>
+
+    
+    <div class="flex center">
+			<div>Nαme:</div>
+			<input id="phoneNumber" >
+		</div>
+    <div class="flex center">
+      <button class = "btn" id="update" onclick=UpdateNum()  >Updαte</button>
+    </div>
+    <div class="flex">
 			<div>Payment Stuff... Paypal? or local but How would I encrpyt it?</div>
 		</div>
 
 	</div>
 
-	<script src="script.js"></script>
+	<script src="account.js"></script>
 </body>
 </html>

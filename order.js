@@ -1,6 +1,6 @@
 
 
-let name ="Jack";
+
 
 
 window.onload = function thanks(){
@@ -15,11 +15,17 @@ window.onload = function thanks(){
   function expandItem(num){
     var temp = "#dropDown" + num;
     document.querySelector(temp).classList.toggle("hidden");
+    if(document.getElementById("dropDown" + num).classList.contains('hidden') && !document.getElementById("more" + num).classList.contains("hidden")){
+      document.querySelector("#more" + num).classList.toggle("hidden");
   }
+}
 
 
   function Ordered(num){
       document.querySelector("#more" + num).classList.toggle("hidden");
-      document.getElementById("insertName" + num).innerHTML = name;
+      document.getElementById("insertName" + num).innerHTML = localStorage.getItem("name");
+      document.getElementById("insertNum" + num).innerHTML = localStorage.getItem("phoneNumber");
 
   }
+
+  
