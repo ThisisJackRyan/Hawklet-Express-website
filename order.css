@@ -33,3 +33,12 @@
 .hidden{
     display:none;
 }
+
+.shrink{
+    max-width: 70%;
+    margin:auto;
+}
+
+#itemName{
+    text-align: center;
+}

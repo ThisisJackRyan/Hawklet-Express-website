@@ -1,4 +1,8 @@
 
+
+let name ="Jack";
+
+
 window.onload = function thanks(){
     console.log("Shout out to Benton Diebold for alot on the java script for a privous project together");
 }
@@ -11,4 +15,11 @@ window.onload = function thanks(){
   function expandItem(num){
     var temp = "#dropDown" + num;
     document.querySelector(temp).classList.toggle("hidden");
+  }
+
+
+  function Ordered(num){
+      document.querySelector("#more" + num).classList.toggle("hidden");
+      document.getElementById("insertName" + num).innerHTML = name;
+
   }
