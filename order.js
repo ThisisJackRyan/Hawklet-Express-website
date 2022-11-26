@@ -46,7 +46,7 @@ window.onload = function thanks(){
       //add is cart is empyt but does not remove if cart is not empty
       let div = document.createElement("div");
       div.className = "flex center";
-      div.textContent = "Your Cart is Empty";
+      div.textContent = "Your Cαrt is Empty";
       main.appendChild(div);
     } else{
       console.log("hlasdf");
