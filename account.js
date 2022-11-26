@@ -6,7 +6,7 @@ window.onload = function load(){
     let inputName = document.getElementById("accountName");
     let inputNum = document.getElementById("phoneNumber");
     if (localStorage.getItem('name') === null) {
-        inputName.setAttribute("placeholder", "Name...");
+        inputName.setAttribute("placeholder", "Nαme...");
       } else {
         const storedName = localStorage.getItem("name");
         inputName.setAttribute("value", storedName);

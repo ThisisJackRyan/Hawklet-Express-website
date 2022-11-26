@@ -6,8 +6,9 @@ button{
     font-family: JupiterBold;
 }
 
-#update{
-    
+#phoneNumber{
+    border-radius: 5px;
+    font-family: JupiterBold;
 }
 .btn{
     background-color: #bbbbbb;
