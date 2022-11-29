@@ -11,7 +11,7 @@
 </head>
 
 <body>
-	<div class="header flex">
+	<div class="header flex"> 
         <div class = "flex left x1">
             <a href="index.html">
                 <img id="crest" src="images/rockCrest.png" alt="">
@@ -27,7 +27,7 @@
     </div>
 
 	<div class="container flex">
-		<div class = "shrink">
+		<div class = "shrink x4">
 			<div class="flex foodItem1000">
 				<div class = "x1 ">
 					<div id="item" onclick =expandItem(0)>
@@ -180,12 +180,15 @@
 		</div>
 
 
-		<div class="aside">
+		<div class="aside x1">
 			<div class="asideTitle"><span>Cαrt</span></div>
 			<div id="cart">
 				<div id="items"></div>
 			</div>
-			<div id="total" class = "flex">Totαl: &nbsp; </div>
+			<div id="total" class = "flex"> 
+				<div>Totαl: &nbsp; </div>
+				<div id="insertTotal"></div>
+			</div>
 			<div>
 				<div class="asideTitle"><span>Plαce Order Under</span></div>
 				<div class="flex center middle ">
@@ -196,6 +199,7 @@
 					<div class ="flex middle">Number: &nbsp;</div>
 					<div id="insertNum"></div>
 				</div>
+				
 			</div>
 		</div>
 	</div>

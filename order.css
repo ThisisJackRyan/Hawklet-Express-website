@@ -52,3 +52,9 @@
     border-bottom:solid black 2px;
     
 }
+
+.cartItem{
+    width:50%;
+    margin:auto
+}
+
