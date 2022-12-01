@@ -7,7 +7,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
 <link href="account.css" rel="stylesheet" type="text/css" />
-  <link href="style.css" rel="stylesheet" type="text/css" />
+<link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
@@ -18,7 +18,7 @@
             </a>
         </div>
         <div class="x3"></div>
-        <div class = "x5 flex center middle thanks">Rockhurst High School's very own Breαkfeαst Cαfe!</div>
+        <div class = "x5 flex center middle thanks">Rockhurst High School's very own Breαkfαst Cαfe!</div>
         <div id="nav" class="flex center middle right x4">
             <div class="flex center"><a href="account.html">αccount</a> </div>
             <div class="flex center"><a href="order.html">Order</a></div>
@@ -33,24 +33,37 @@
     <div class="flex center align">
       Pleαse enter for first αnd lαst nαme so we don't mix up the orders!!
     </div>
-		<div class="flex center">
-			<div>Nαme:</div>
-			<input id="accountName" >
-		</div>
-    <div class="flex center">
-      <button class = "btn" id="update" onclick=UpdateName()>Updαte Nαme</button>
+
+
+    <div class="title flex center accountInfo">
+      <span>αccount Informαtion</span>
     </div>
 
-    
-    <div class="flex center">
-			<div>Nαme:</div>
-			<input id="phoneNumber" >
-		</div>
-    <div class="flex center">
-      <button class = "btn" id="update" onclick=UpdateNum()>Updαte Phone Number</button>
-    </div>
-  
 
+    <div class = "flex center">
+      <div>
+        <div class="flex center">
+          <div class="flex right">
+            <div>Nαme:</div>
+            <input id="accountName" >
+          </div>
+        </div>
+        <div class="flex center">
+          <button class = "btn" id="update" onclick=UpdateName()>Updαte Nαme</button>
+        </div>
+      </div>
+
+      <div>
+        <div class="flex center">
+          <div class="flex right">
+            <div>Phone Number:</div>
+            <input id="phoneNumber" >
+          </div>
+        </div>
+        <div class="flex center">
+          <button class = "btn" id="update" onclick=UpdateNum()>Updαte Phone Number</button>
+        </div>
+    </div>
 	</div>
 
 	<script src="account.js"></script>

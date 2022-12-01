@@ -98,11 +98,11 @@ window.onload = function thanks(){
         item.className = "x1";
 
         let img = document.createElement("img");
-        img.className = "flex center cartItem align";
+        img.className = "flex center cartItem ";
         img.src = "images/"+cart[cart.length-1][1];
 
         let div = document.createElement("div");
-        div.className = "flex center ";
+        div.className = "flex center align";
         div.textContent = cart[cart.length-1][0];
 
         item.appendChild(img);

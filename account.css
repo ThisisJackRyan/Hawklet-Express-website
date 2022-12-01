@@ -1,3 +1,11 @@
+body{
+    color:#bbbbbb;
+}
+.accountInfo span{
+    border-bottom: dashed #f3db51 4px;
+    /*text-decoration: underline;
+    text-decoration-style: dashed;*/
+}
 #accountName{
     border-radius: 5px;
     font-family: JupiterBold;
@@ -11,6 +19,18 @@ button{
     font-family: JupiterBold;
 }
 .btn{
-    background-color: #bbbbbb;
+    background-color: #003074;
     border-radius:5px;
+    color:#bbbbbb;
+}
+
+.container div{
+    padding:5px;
+}
+button{
+    width:100%;
+}
+
+button:hover{
+    background: #003ca2;
 }

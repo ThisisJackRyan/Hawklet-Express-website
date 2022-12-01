@@ -30,6 +30,7 @@
     padding: 2%;
     border-radius: 5px;
 }
+
 .hidden{
     display:none;
 }
@@ -42,19 +43,30 @@
 #itemName{
     text-align: center;
 }
+
+.aside{
+    color:#bbbbbb;
+    text-shadow: 1px 1px black;
+}
 .asideTitle{
     margin-bottom: 5%;
 }
 #cart{
     border:solid black 1px;
 }
+.asideTitle{
+    margin-top:10px;
+}
 .asideTitle span{
     border-bottom:solid black 2px;
     
 }
+.asideTitle div{
+    margin-top:2px;
+}
 
 .cartItem{
     width:50%;
-    margin:auto
+    margin:auto;
 }
 

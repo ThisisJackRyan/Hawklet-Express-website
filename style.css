@@ -35,9 +35,9 @@ img{width:100%;}
 .flex.right{justify-content: right;}
 .flex.center{justify-content: center;}
 .flex.left{justify-content: left;}
-.flex.top{align-items: top;}
+.flex.top{align-items: start;}
 .flex.middle{align-items: center};
-.flex.bottom{align-items: bottom;}
+.flex.bottom{align-items: end;}
 
 .x1{flex:1;}
 .x2{flex:2;}
@@ -195,7 +195,6 @@ p{
 	padding-top:2%;
 }
 #aboutTitle{
-	
 	padding-top: 2%;
 }
 #aboutTitle span{
