@@ -11,13 +11,14 @@ let menu = [
     ["Sαusαge αnd Wαffle Sαndwich", "Sasage&Waffle.jpg", 2.50]
   ];
 let cart = [];
+let sum = 0;
 
 
 window.onload = function thanks(){
     console.log("Shout out to Benton Diebold for alot on the java script insperation from a privous project together");
-      document.getElementById("insertName").innerHTML = localStorage.getItem("name");
-      document.getElementById("insertNum").innerHTML = localStorage.getItem("phoneNumber");
-      GenerateCart();
+    document.getElementById("insertName").innerHTML = localStorage.getItem("name");
+    document.getElementById("insertNum").innerHTML = localStorage.getItem("phoneNumber");
+    GenerateCart();
 }
 /*var options = toToggle.querySelector(".options");
   var checkout = toToggle.querySelector(".checkout");
@@ -75,29 +76,51 @@ window.onload = function thanks(){
     }
   }*/
 
-  function GenerateCart(){
-    let sum = 0;
-    let main = document.getElementById("items");
-    for(let i =0; i < (cart.length/3)+1; i++){
-      row = document.createElement("div");
-      row.className = "flex";
-      for(let j = i; j < i+3; j++){
+ 
+    function GenerateCart(){
+      let main = document.getElementById("items");
+      if(cart.length <= 0){
+        //add is cart is empyt but does not remove if cart is not empty
+        let empty = document.createElement("div");
+        empty.className = "flex center";
+        empty.id="Empty";
+        empty.textContent = "Your Cαrt is Empty";
+        main.appendChild(empty);
+      } else{
+        document.getElementById("Empty").textContent = "";
+
+        if((cart.length-1) % 3 == 0){
+          row = document.createElement("div");
+          row.className = "flex";
+        }
+
         item = document.createElement("div");
         item.className = "x1";
 
         let img = document.createElement("img");
         img.className = "flex center cartItem align";
-        img.src = "images/"+cart[i][1];
+        img.src = "images/"+cart[cart.length-1][1];
 
         let div = document.createElement("div");
         div.className = "flex center ";
-        div.textContent = cart[j][0];
+        div.textContent = cart[cart.length-1][0];
 
         item.appendChild(img);
         item.appendChild(div);
 
         row.appendChild(item);
+
+        main.append(row);
+
+
+        let total = document.getElementById("total");
+        let tot = document.getElementById("insertTotal");
+        tot.className = "flex center";
+        
+        sum += cart[cart.length-1][2];
+        console.log(sum);
+        tot.textContent = "$" + Math.round(100*sum)/100; 
+        total.appendChild(tot);
       }
-      main.append(row);
-    }
-  }
+}
+ 
