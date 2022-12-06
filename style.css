@@ -123,8 +123,19 @@ a{
 
 
 
+.swot{
+	border:solid black 1px;
+}
 
-
+.pad{
+	padding-bottom: 5%;
+	color:#bbbbbb;
+	margin-left:15%;
+	margin-right:15%;
+	padding-top:2%;
+	-webkit-text-stroke: 0.1px black;
+	text-shadow: 1px 1px black;
+}
 
 .title{
 	margin-top: 2%;
@@ -194,13 +205,15 @@ p{
 	margin-right:15%;
 	padding-top:2%;
 }
-#aboutTitle{
+.aboutTitle{
 	padding-top: 2%;
 }
-#aboutTitle span{
+.aboutTitle span{
 	border-bottom:solid black 3px;
 }
-
+.swotFinal{
+	padding-bottom:30%;
+}
 
 
 
