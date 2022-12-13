@@ -8,4 +8,4 @@ I am using the font Jupiter Pro. Which is Rockhurst Highschools Font. The only i
 
 To use the Website effectively make a Account that is saved to local Storage
 
-<img width="773" alt="Screen Shot 2022-12-13 at 12 18 12 PM" src="https://user-images.githubusercontent.com/104151631/207413612-dd65c584-5b03-4de2-bfcd-6b8b6ee0962c.png">
+<img width="769" alt="Screen Shot 2022-12-13 at 12 21 21 PM" src="https://user-images.githubusercontent.com/104151631/207414237-e3de65f4-31e8-46fa-b827-b6f6a6c7c86c.png">
