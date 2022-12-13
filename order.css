@@ -23,12 +23,23 @@
     
 }
 
-#orderButton{
+.orderButton{
     margin:7%;
     background-color: #dbaa18;
     color: white;
     padding: 2%;
     border-radius: 5px;
+}
+.actualOrderButton span{
+    margin:7%;
+    background-color: #dbaa18;
+    color: white;
+    padding: 2%;
+    border-radius: 5px;
+}
+
+.actualOrderButton span:hover{
+    background-color: #f3db51;
 }
 
 .hidden{
