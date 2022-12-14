@@ -34,7 +34,7 @@
     margin:7%;
     background-color: #dbaa18;
     color: white;
-    padding: 2%;
+    padding: 10%;
     border-radius: 5px;
 }
 
@@ -72,12 +72,44 @@
     border-bottom:solid black 2px;
     
 }
-.asideTitle div{
-    margin-top:2px;
+.asideTitle div div{
+    margin-top:10px;
 }
 
 .cartItem{
-    width:50%;
+   width:50%;
     margin:auto;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .foodItem1000{
+		flex-direction: column;
+	}
+    .breakFlex{
+        display:flex;
+    }
+    .stats{
+        font-size:2em;
+    }
+    .container{
+        margin:5px;
+    }
+    .shrink{
+        height:100%;
+        margin:5px;
+        max-width:100%;
+    }
+    .asideTitle{
+          text-align: center;
+        
+    }
+    #cartTitle{
+        font-size: 2em;
+        margin-bottom:2%
+    }
+    
+    
+    
 }
 
